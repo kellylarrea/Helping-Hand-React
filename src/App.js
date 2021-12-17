@@ -16,7 +16,7 @@ import AllListing from "./components/AllListing";
 import Contact from "./components/Contact";
 import Profile from "./components/Profile"
 import ItemDetail from "./components/ItemDetail"
-import Form from "./components/Form";
+import UserListing from "./components/profile/UserListing";
 import About from "./components/About";
 import FavoriteList from "./components/profile/FavoriteList";
 import CreatedListings from "./components/profile/CreatedListings";
@@ -77,7 +77,7 @@ const App = () => {
         <Route path="/listeditems/:id" element={<ItemDetail user={user} />}></Route>
         <Route path ="/profile" element={<Profile refreshItem={getItems} user={user}/> } />
         <Route path ="/favorites" element={<FavoriteList user={user}/> } />
-        <Route path ="/edititem" element={<Form refreshItem={getItems} user={user}/> } />
+        <Route path ="/createlisting" element={<UserListing user={user}/> } />
         <Route path ="/mylistings" element={<CreatedListings user={user}/> } />\
 
 
