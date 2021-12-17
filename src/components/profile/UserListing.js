@@ -16,8 +16,13 @@ function UserListing(props) {
         <div>
             <h1>My Listings:</h1>
             {userListings}
+<<<<<<< HEAD
             {/* <Link to={{ pathname: "/editForm" }}>
                 Create a Listing
+=======
+            {/* <Link to={{ pathname: "/editForm" }}> */}
+                {/* Create a Listing
+>>>>>>> 0a405b3ac5bb6360812cf1a424e5759a744d2e6b
         </Link > */}
         </div>
     )
